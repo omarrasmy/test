@@ -7,7 +7,7 @@ function alphapit1 (Input){
         result[String.fromCharCode( 97 + i )] = 0
     }
     arrayInput.forEach((e)=>{
-        if(res.hasOwnProperty(e)){
+        if(result.hasOwnProperty(e)){
             result[e] =result[e]+1;
         }
     })
